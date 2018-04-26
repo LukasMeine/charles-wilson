@@ -1,0 +1,117 @@
+{
+  "tiny": {
+    "key": "71a1ecba7c80ac44dfaa990aadf43edfa5ddf4af"
+  },
+
+  "devmind": {
+    "Stripe": {
+      "api": {
+        "secret_key": "sk_test_9I21YsCZ4O3xznAheFeBmwKV",
+        "publishable_key": "pk_test_p6ECJcWz098nIdIwJu39gJUN"
+      }
+    },
+    "Payment": {
+      "processor": "stripe"
+    }
+  },
+
+  "maxpotent": {
+    "Stripe": {
+      "api": {
+        "secret_key": "sk_test_9I21YsCZ4O3xznAheFeBmwKV",
+        "publishable_key": "pk_test_p6ECJcWz098nIdIwJu39gJUN"
+      }
+    },
+    "Mercadopago": {
+      "api": {
+        "public_key": "APP_USR-65a84f2e-72a8-49de-817e-e54c0d06c7cb",
+        "access_token":
+          "APP_USR-8355903012451108-060210-0be95b4dfe57c48073a40fcaf2c2a30c__LD_LB__-212253704"
+      }
+    },
+    "Cielo": {
+      "api": {
+        "merchant_id": "154ffd54-9245-444c-929f-aa27e429b6e7",
+        "merchant_key": "EQVNMGSWISEPMRSSAIICMZMYKWKLCSIINPFGNDCZ"
+      }
+    },
+    "Payment": {
+      "processor": "mercadopago"
+    }
+  },
+
+  "novellus": {
+    "Stripe": {
+      "api": {
+        "secret_key": "sk_test_9I21YsCZ4O3xznAheFeBmwKV",
+        "publishable_key": "pk_test_p6ECJcWz098nIdIwJu39gJUN"
+      }
+    },
+    "Mercadopago": {
+      "api": {
+        "public_key": "APP_USR-65a84f2e-72a8-49de-817e-e54c0d06c7cb",
+        "access_token":
+          "APP_USR-8355903012451108-060210-0be95b4dfe57c48073a40fcaf2c2a30c__LD_LB__-212253704"
+      }
+    },
+    "Cielo": {
+      "api": {
+        "merchant_id": "372b08b3-91ac-492e-a1c9-af87e701e5d4",
+        "merchant_key": "GCTJ2KQworiiRRMWhNXJtPGChnLoQEEaToQ9omZ3"
+      }
+    },
+    "Payment": {
+      "processor": "mercadopago"
+    }
+  },
+
+  "scorpogenico": {
+    "Stripe": {
+      "api": {
+        "secret_key": "sk_test_9I21YsCZ4O3xznAheFeBmwKV",
+        "publishable_key": "pk_test_p6ECJcWz098nIdIwJu39gJUN"
+      }
+    },
+    "Mercadopago": {
+      "api": {
+        "public_key": "APP_USR-65a84f2e-72a8-49de-817e-e54c0d06c7cb",
+        "access_token":
+          "APP_USR-8355903012451108-060210-0be95b4dfe57c48073a40fcaf2c2a30c__LD_LB__-212253704"
+      }
+    },
+    "Cielo": {
+      "api": {
+        "merchant_id": "372b08b3-91ac-492e-a1c9-af87e701e5d4",
+        "merchant_key": "GCTJ2KQworiiRRMWhNXJtPGChnLoQEEaToQ9omZ3"
+      }
+    },
+    "Payment": {
+      "processor": "mercadopago"
+    }
+  },
+
+  "anadrolle": {
+    "Stripe": {
+      "api": {
+        "secret_key": "sk_test_9I21YsCZ4O3xznAheFeBmwKV",
+        "publishable_key": "pk_test_p6ECJcWz098nIdIwJu39gJUN"
+      }
+    },
+    "Mercadopago": {
+      "api": {
+        "public_key": "APP_USR-65a84f2e-72a8-49de-817e-e54c0d06c7cb",
+        "access_token":
+          "APP_USR-8355903012451108-060210-0be95b4dfe57c48073a40fcaf2c2a30c__LD_LB__-212253704"
+      }
+    },
+    "Cielo": {
+      "api": {
+        "merchant_id": "372b08b3-91ac-492e-a1c9-af87e701e5d4",
+        "merchant_key": "GCTJ2KQworiiRRMWhNXJtPGChnLoQEEaToQ9omZ3"
+      }
+    },
+    "Payment": {
+      "processor": "cielo"
+    }
+  }
+}

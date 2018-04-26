@@ -1,0 +1,17 @@
+global:
+    - CC_TEST_REPORTER_ID=353b5b6a77b7419180518c6d7dcba886b6645b153431d913227ae46f6b8e96e2
+
+language: node_js
+
+node_js:
+  - "6"
+
+before_script:
+
+  - chmod 0777 ./node_modules/.bin/mocha
+
+after_success:
+
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - cc-test-reporter after-build --exit-code $?
