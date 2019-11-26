@@ -6,6 +6,8 @@ var fs = require('fs');
 var log = require('captains-log')();
 app.set('port', port);
 
+//blah
+
 if (typeof args.port === "undefined") {
   port = 3000;
 } else {
